@@ -4,7 +4,7 @@ if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
 
 //=======[dependencies]====================//
-global.SESSION_ID = process.env.SESSION_ID || "";
+global.SESSION_ID = process.env.SESSION_ID || "7PoChAaB#4QDnf4fx6PQmzJhmKJyS3FriqgNHvBFM5I8wLV0VBac";
 global.MONGODB = process.env.MONGODB_URI || "";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.sudo = process.env.SUDO
@@ -12,7 +12,7 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "94741140620";
+  : "94702722766";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
@@ -31,7 +31,7 @@ module.exports = {
   author: process.env.PACK_AUTHER || "GHOST-MD",
   packname: process.env.PACK_NAME || "GHOST-MD",
   botname: process.env.BOT_NAME || "GHOST-MD",
-  ownername: process.env.OWNER_NAME || "GHOST-MD",
+  ownername: process.env.OWNER_NAME || "SACHIN-MD",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
