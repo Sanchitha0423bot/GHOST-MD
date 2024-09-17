@@ -4,7 +4,7 @@ if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
 
 //=======[dependencies]====================//
-global.SESSION_ID = process.env.SESSION_ID || "7PoChAaB#4QDnf4fx6PQmzJhmKJyS3FriqgNHvBFM5I8wLV0VBac";
+global.SESSION_ID = process.env.SESSION_ID || "";
 global.MONGODB = process.env.MONGODB_URI || "";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.sudo = process.env.SUDO
@@ -12,7 +12,7 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "94702722766";
+  : "94742817784";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
@@ -82,5 +82,5 @@ fs.watchFile(file, () => {
   delete require.cache[file];
   require(file);
 ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/397000a07a1deb7fad9c2.jpg",
-ALIVE_MSG: process.env.ALIVE_MSG || "HELLO,IM GHOST-MD I AM ALIVE NOW!",
+ALIVE_MSG: process.env.ALIVE_MSG || "HELLO,IM SACHIN-MD I AM ALIVE NOW!",
   });
